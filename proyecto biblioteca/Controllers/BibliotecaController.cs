@@ -29,11 +29,11 @@ namespace proyecto_biblioteca.Controllers
 
             return Ok(Result);
         }
-        
-           [HttpPost(Name = "AddBok")]
-           public IActionResult Post()
+
+        [HttpPost(Name = "AddBok")]
+        public IActionResult Post()
         {
-           _logger.LogInformation("Inicia Solicitud GET Books");
+            _logger.LogInformation("Inicia Solicitud GET Books");
             return Ok("practica de prueba");
 
         }
@@ -45,7 +45,7 @@ namespace proyecto_biblioteca.Controllers
 
         }
 
-         
+
         [HttpDelete(Name = "DeleteBook")]
         public IActionResult Delete()
         {
