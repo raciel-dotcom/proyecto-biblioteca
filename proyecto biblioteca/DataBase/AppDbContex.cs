@@ -7,6 +7,6 @@ namespace proyecto_biblioteca.DataBase
     {
         public AppDbContex(DbContextOptions<AppDbContex> Options):base(Options)
         { }
-        public DbSet<Book> Books { get; set; }
+        public DbSet<Book> Book { get; set; }
     }
 }
